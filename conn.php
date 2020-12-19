@@ -1,8 +1,9 @@
 <?php
 try {
-	$pdo = new PDO('mysql:host=localhost;dbname=ijdb;charset=utf8', 'root', '751207');
+	$pdo = new PDO('mysql:host=localhost;dbname=ijdb;charset=utf8', 'root', '000000');    
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	 $pdo->query('SET NAMES utf8;');
+	
 	//echo "it work";
 }
 catch (PDOException $e) {
